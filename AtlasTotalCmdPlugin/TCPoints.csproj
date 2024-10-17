@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AllReaders.cs" />
+    <Compile Remove="BaseDialog.cs" />
+    <Compile Remove="BaseDialog.Designer.cs" />
+    <Compile Remove="Bod.cs" />
+    <Compile Remove="CsvExport.cs" />
+    <Compile Remove="ExcelExport.cs" />
+    <Compile Remove="IAllInterfaces.cs" />
+    <Compile Remove="IReader.cs" />
+    <Compile Remove="MainPage.cs" />
+    <Compile Remove="MainPage.Designer.cs" />
+    <Compile Remove="ReadBod.cs" />
+    <Compile Remove="SelectDialog.cs" />
+    <Compile Remove="SelectDialog.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="BaseDialog.resx" />
+    <EmbeddedResource Remove="MainPage.resx" />
+    <EmbeddedResource Remove="SelectDialog.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetTopologySuite" Version="2.5.0" />
+    <PackageReference Include="NetTopologySuite.Features" Version="2.2.0" />
+    <PackageReference Include="NetTopologySuite.IO.ShapeFile" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>bin\Release\net8.0-windows\EPPlus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AtlasTotalCmdPlugin/1.0.0": {
+        "dependencies": {
+          "EPPlus": "4.0.1.1"
+        },
+        "runtime": {
+          "AtlasTotalCmdPlugin.dll": {}
+        }
+      },
+      "EPPlus/4.0.1.1": {
+        "runtime": {
+          "EPPlus.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.0.1.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AtlasTotalCmdPlugin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus/4.0.1.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

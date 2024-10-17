@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="GUI\BaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\LoadExternalDll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\SelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
